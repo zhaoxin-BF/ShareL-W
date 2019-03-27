@@ -1,0 +1,30 @@
+POST /upload HTTP/1.1
+Host: 192.168.122.135:8080
+Connection: keep-alive
+Content-Length: 202
+Cache-Control: max-age=0
+Origin: http://192.168.122.135:8080
+Upgrade-Insecure-Requests: 1
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryBJP7FhV4yjQ3wgVo
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.122.135:8080/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+------WebKitFormBoundaryBJP7FhV4yjQ3wgVo
+Content-Disposition: form-data; name="fileupload";
+Content-Type: text/plain
+
+abc
+------WebKitFormBoundaryBJP7FhV4yjQ3wgVo
+Content-Disposition: form-data; name="fileupload"; filename="hello.txt"
+Content-Type: text/plain
+
+hello world!!
+------WebKitFormBoundaryBJP7FhV4yjQ3wgVo
+Content-Disposition: form-data; name="anniu";
+Content-Type: text/plain
+
+上传文件
+------WebKitFormBoundaryBJP7FhV4yjQ3wgVo--
